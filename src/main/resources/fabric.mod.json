@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "throwingdisc",
+  "version": "${version}",
+  "name": "Throwing Discs",
+  "description": "Throwing discs: thrown weapons that fly straight, cut through enemies, ricochet off hard surfaces and come back to you.",
+  "authors": ["TGdoesCode"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/throwingdisc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.tggamesyt.throwingdisc.client.ThrowingDiscClient"
+    ],
+    "main": [
+      "dev.tggamesyt.throwingdisc.ThrowingDisc"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

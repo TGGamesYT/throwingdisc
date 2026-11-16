@@ -1,0 +1,6 @@
+{
+  "parent": "throwingdisc:item/throwing_disc",
+  "textures": {
+    "layer0": "throwingdisc:item/iron_throwing_disc"
+  }
+}
